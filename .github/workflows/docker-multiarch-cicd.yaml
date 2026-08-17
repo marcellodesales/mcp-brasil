@@ -43,7 +43,7 @@ jobs:
     with:
       registry: ghcr.io
       platforms: linux/amd64,linux/arm64
-      docker-compose-file-name: docker-compose.yaml
+      docker-compose-file-name: docker-compose.yml
       dockerhub-registry: docker.io
       dockerhub-namespace: ${{ github.repository_owner }}
       dockerhub-registry-username: ${{ needs.setup.outputs.dockerhub-username }}
