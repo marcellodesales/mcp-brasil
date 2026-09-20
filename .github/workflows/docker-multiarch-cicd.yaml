@@ -6,7 +6,7 @@ on:
     types: [opened, synchronize, reopened, closed]
   push:
     branches:
-      - vionix/main
+      - */main
       - develop
     tags:
       - 'v*'
